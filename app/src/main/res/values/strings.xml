@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CalendarApp</string>
+    <string name="ad">Ad:</string>
+
+    <string-array name="yineleVals">
+        <item>VARSAYILAN</item>
+        <item>ASLA</item>
+        <item>HER GUN</item>
+        <item>HER HAFTA</item>
+        <item>HER AY</item>
+        <item>HER YIL</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="varsayilanVals">
+        <item>ASLA</item>
+        <item>HER GUN</item>
+        <item>HER HAFTA</item>
+        <item>HER AY</item>
+        <item>HER YIL</item>
+    </string-array>
+
+    <string-array name="ringVals">
+        <item>ALARM</item>
+        <item>NOTIF</item>
+        <item>ALTO</item>
+    </string-array>
+
+    <string-array name="hatirZamans">
+        <item>BIR SAAT ONCE</item>
+        <item>BIR GUN ONCE</item>
+        <item>BIR HAFTA ONCE</item>
+        <item>BIR AY ONCE</item>
+    </string-array>
+</resources>

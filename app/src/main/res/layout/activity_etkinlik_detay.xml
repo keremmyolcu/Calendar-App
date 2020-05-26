@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDFEFF"
+    tools:context=".EtkinlikDetay">
+
+    <TextView
+        android:id="@+id/addetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="57dp"
+        android:text="Ad:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/useraddetay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/detaydetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="28dp"
+        android:text="Detay:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/userdetaydetay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/useraddetay"
+        android:layout_width="235dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center_vertical"
+        android:text="--"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/userbaslangicdetay"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userdetaydetay"
+        android:layout_width="216dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:maxLines="3"
+        android:text="--"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/useraddetay"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="@+id/useraddetay"
+        app:layout_constraintTop_toTopOf="@+id/detaydetaytext" />
+
+    <TextView
+        android:id="@+id/baslangicdetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Baslangic:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/detaydetaytext"
+        app:layout_constraintTop_toBottomOf="@+id/detaydetaytext" />
+
+    <TextView
+        android:id="@+id/userbaslangicdetay"
+        android:layout_width="175dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center_vertical"
+        android:text="--"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userdetaydetay"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/bitisdetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Bitis:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/baslangicdetaytext"
+        app:layout_constraintTop_toBottomOf="@+id/baslangicdetaytext" />
+
+
+    <TextView
+        android:id="@+id/userbitisdetay"
+        android:layout_width="175dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="--"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/userbaslangicdetay"
+        app:layout_constraintTop_toBottomOf="@+id/userbaslangicdetay" />
+
+    <TextView
+        android:id="@+id/hatirdetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hatirlat:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bitisdetaytext"
+        app:layout_constraintTop_toBottomOf="@+id/bitisdetaytext" />
+
+    <TextView
+        android:id="@+id/userhatirdetay"
+        android:layout_width="175dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="--"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/userbitisdetay"
+        app:layout_constraintTop_toBottomOf="@+id/userbitisdetay" />
+
+    <TextView
+        android:id="@+id/yineledetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Yinele:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/hatirdetaytext"
+        app:layout_constraintTop_toBottomOf="@+id/hatirdetaytext" />
+
+    <TextView
+        android:id="@+id/useryineledetay"
+        android:layout_width="175dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="--"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/userhatirdetay"
+        app:layout_constraintTop_toBottomOf="@+id/userhatirdetay" />
+
+    <TextView
+        android:id="@+id/konumdetaytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Konum:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/yineledetaytext"
+        app:layout_constraintTop_toBottomOf="@+id/yineledetaytext" />
+
+    <Button
+        android:id="@+id/konumGosterButon"
+        android:layout_width="177dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/new_button"
+        android:text="GOSTER"
+        app:layout_constraintStart_toStartOf="@+id/useryineledetay"
+        app:layout_constraintTop_toBottomOf="@+id/useryineledetay" />
+
+    <Button
+        android:id="@+id/silButon"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/new_button"
+        android:text="SIL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/konumGosterButon" />
+
+    <Button
+        android:id="@+id/guncelButon"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:background="@drawable/new_button"
+        android:text="Guncelle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/silButon" />
+
+    <Button
+        android:id="@+id/paylasButon"
+        android:layout_width="192dp"
+        android:layout_height="47dp"
+        android:background="@drawable/new_button"
+        android:text="Paylas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guncelButon"
+        app:layout_constraintTop_toBottomOf="@+id/guncelButon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
